@@ -33,7 +33,10 @@ body {
   overflow-y: hidden;
 }
 
-#scroll-div::-webkit-file-upload-button #scroll-div h1 {
+#scroll-div::-webkit-scrollbar {
+  display: none;
+}
+#scroll-div h1 {
   display: inline-block;
   font-size: 140px;
   text-transform: uppercase;
