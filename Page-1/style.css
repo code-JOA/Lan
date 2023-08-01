@@ -22,6 +22,7 @@ body {
 
 #main img {
   height: 690px;
+  width: 500px;
   position: relative;
   z-index: 99;
 }
@@ -97,4 +98,18 @@ body {
   letter-spacing: 4px;
 
   font-family: monument;
+}
+
+#text {
+  font-size: 25px;
+  position: absolute;
+  font-family: monument;
+  width: 60%;
+  /* background-color: red; */
+  z-index: 999;
+  text-align: center;
+  top: 16%;
+  /* margin-top: -30%; */
+  text-align: center;
+  text-transform: uppercase;
 }
