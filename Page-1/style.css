@@ -25,6 +25,7 @@ body {
   width: 510px;
   position: relative;
   z-index: 99;
+  object-fit: cover;
 }
 
 #scroll-div {
