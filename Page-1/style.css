@@ -22,3 +22,11 @@ body {
 #main img {
   height: 600px;
 }
+
+#scroll-div {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
