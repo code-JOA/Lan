@@ -41,8 +41,11 @@ body {
 
 .main .mask {
   mask-image: url("./public/mask.svg");
+  -webkit-mask-image: url("./public/mask.svg"); /* For Chrome */
   mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat; /* For Chrome */
   mask-size: 40px;
+  -webkit-mask-size: 40px; /* For Chrome */
   background: #fff;
   /* background: #ec4e39; */
   position: absolute;
