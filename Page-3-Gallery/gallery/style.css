@@ -127,7 +127,7 @@ body {
 
 #text {
   font-size: 25px;
-  /* position: absolute; */
+  position: absolute;
   font-family: monument;
   width: 60%;
   /* background-color: red; */
@@ -137,9 +137,9 @@ body {
   /* bottom: 16%; */
   /* margin-top: 5%; */
   /* right: 70%; */
-  display: flex;
+  /* display: flex; */
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-transform: uppercase;
 }
 
