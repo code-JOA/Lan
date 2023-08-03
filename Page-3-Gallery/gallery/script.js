@@ -52,6 +52,16 @@ tl.to(
   "a"
 );
 
+document
+  .querySelector("#aboutme")
+  .addEventListener("mousemove", function (dets) {
+    document.querySelector("#aboutme").style.transform = `translate(${
+      dets.clientX * 0.02
+    }px, ${dets.clientY * 0.02}px)`;
+    document.querySelector("#aboutme").style.backgroundColor = "blue";
+    document.querySelector("#aboutme").style.cursor = "pointer";
+  });
+
 document.querySelector("#aboutme").addEventListener("mouseleave", function () {
   document.querySelector("#aboutme").style.transform = `translate(0px, 0px)`;
   document.querySelector("#aboutme").style.cursor = "pointer";
