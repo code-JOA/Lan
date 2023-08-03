@@ -133,10 +133,10 @@ body {
   /* background-color: red; */
   z-index: 999;
   text-align: center;
-  /* top: 16%; */
+  top: 16%;
   /* bottom: 16%; */
-  margin-top: 5%;
-  right: 70%;
+  /* margin-top: 5%; */
+  /* right: 70%; */
   display: flex;
   text-align: center;
   justify-content: center;
