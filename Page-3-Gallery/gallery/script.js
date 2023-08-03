@@ -51,3 +51,9 @@ tl.to(
   },
   "a"
 );
+
+document.querySelector("#aboutme").addEventListener("mouseleave", function () {
+  document.querySelector("#aboutme").style.transform = `translate(0px, 0px)`;
+  document.querySelector("#aboutme").style.cursor = "pointer";
+  document.querySelector("#aboutme").style.backgroundColor = "#333";
+});
