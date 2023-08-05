@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 70%;
+  /* left: 70%; */
 }
 
 .text {
