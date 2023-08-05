@@ -145,14 +145,14 @@ body {
   position: absolute;
   animation: anim 10s linear infinite;
 }
-@keyframes anim {
+/* @keyframes anim {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 .text span {
   position: absolute;
