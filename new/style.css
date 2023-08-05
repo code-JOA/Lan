@@ -69,6 +69,6 @@ body {
   position: absolute;
   left: 50%;
   font-size: 1.2em;
-  transform-origin: 50% 50%; /* Corrected to set both X and Y axes to 50% */
+  transform-origin: 0 100px; /* Corrected to set both X and Y axes to 50% */
   transform: translateX(-50%) rotate(0deg); /* Corrected to center the text horizontally and initialize rotation to 0 degrees */
 }
