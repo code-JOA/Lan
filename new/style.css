@@ -44,5 +44,5 @@ body {
   position: absolute;
   left: 50%;
   font-size: 1.2em;
-  transform-origin: 100px;
+  transform-origin: 0 70px;
 }
