@@ -57,15 +57,15 @@ body {
   }
 }
 
-/* 
+
 .text span {
   position: absolute;
   left: 50%;
   font-size: 1.2em;
   transform-origin: 0 100px;
-} */
+} 
 
-.text span {
+/* .text span {
   position: absolute;
   left: 50%;
   font-size: 1.2em;
@@ -81,4 +81,4 @@ body {
   to {
     transform: translateX(-50%) rotate(360deg);
   }
-}
+} */
