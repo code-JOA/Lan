@@ -52,6 +52,7 @@ tl.to(
   "a"
 );
 
+// black circle
 document
   .querySelector("#aboutme")
   .addEventListener("mousemove", function (dets) {
@@ -67,3 +68,5 @@ document.querySelector("#aboutme").addEventListener("mouseleave", function () {
   document.querySelector("#aboutme").style.cursor = "pointer";
   document.querySelector("#aboutme").style.backgroundColor = "#000";
 });
+
+// rotating circle
