@@ -5,6 +5,7 @@
   font-family: consolas;
 }
 
+html,
 body {
   display: grid;
   place-items: center;
