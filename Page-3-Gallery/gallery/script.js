@@ -69,11 +69,39 @@ document.querySelector("#aboutme").addEventListener("mouseleave", function () {
   document.querySelector("#aboutme").style.backgroundColor = "#000";
 });
 
-// rotating circle
-const text = document.querySelector(".text p");
-text.innerHTML = text.innerText
-  .split("")
-  .map(
-    (char, i) => `<span style="transform:rotate(${i * 8.3}deg)">${char}</span>`
-  )
-  .join("");
+// original circle
+const text = document.getElementById("text3");
+text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+const ele = document.querySelectorAll("span");
+for (var i = 1; i < ele.length; i++) {
+  ele[i].style.transform = "rotate(" + i * 16.5 + "deg)";
+}
+
+// 2nd working rotating circle
+// const text = document.getElementById("text3");
+// const chars = text.textContent.split("");
+
+// text.innerHTML = chars.map((char) => `<span>${char}</span>`).join("");
+
+// const spans = document.querySelectorAll("#text3 span");
+// spans.forEach((span, i) => {
+//   span.style.transform = `rotate(${(i + 1) * 16.5}deg)`;
+// });
+
+// rotating circle 2nd code
+
+// const textElements = document.querySelectorAll("#text3");
+
+// textElements.forEach((text) => {
+//   const chars = text.innerText.trim().split("");
+//   const totalChars = chars.length;
+
+//   text.innerHTML = chars
+//     .map(
+//       (char, i) =>
+//         `<span style="transform:rotate(${
+//           (360 / totalChars) * i
+//         }deg) translateX(100px)">${char}</span>`
+//     )
+//     .join("");
+// });

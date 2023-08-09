@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      #text {
+        height: 160px;
+        font-size: 20px;
+        animation: anim 10s linear infinite;
+      }
+      @keyframes anim {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      span {
+        position: absolute;
+        transform-origin: 0 100px;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- <div class="circle">
+      <div class="text">
+        <p>Keep - in touch for - latest</p>
+      </div>
+    </div> -->
+
+    <div class="circle">
+      <div id="text">
+        <h1>Keep -in touch always-</h1>
+      </div>
+    </div>
+
+    <!-- <h1 id="text">Circular-text-effect-</h1> -->
+    <script src="script.js">
+        //   const text = document.getElementById("text");
+        //   text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+        //   const ele = document.querySelectorAll("span");
+        //   for (var i = 1; i < ele.length; i++) {
+        //     ele[i].style.transform = "rotate(" + i * 16.5 + "deg)";
+        //   }
+
+        //   const text = document.querySelectorAll("#text h1");
+        //   text.innerHTML = [...text.innerText]
+        //     .map(
+        //       (char, i) =>
+        //         `<span style="transform:rotate(${i * 8.3}deg)">${char}</span>`
+        //     )
+        //     .join("");
+      //   const text = document.getElementById("text");
+      //   const chars = text.textContent.split("");
+
+      //   text.innerHTML = chars.map((char) => `<span>${char}</span>`).join("");
+
+      //   const spans = document.querySelectorAll("#text span");
+      //   spans.forEach((span, i) => {
+      //     span.style.transform = `rotate(${(i + 1) * 16.5}deg)`;
+      //   });
+    </script>
+  </body>
+</html>

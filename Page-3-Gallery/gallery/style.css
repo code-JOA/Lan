@@ -109,6 +109,7 @@ body {
   align-items: center;
   /* bottom: 0%; */
   right: 10%;
+  margin-top: 5%;
   width: 13vw;
   height: 13vw;
   background-color: #080808;
@@ -131,35 +132,34 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
-  background: red;
+  /* background: red; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 70%;
+  left: 76%;
+  /* margin-top: -3%; */
 }
 
-.text {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  /* animation: anim 10s linear infinite; */
+#text3 {
+  height: 160px;
+  font-size: 20px;
+  animation: anim 10s linear infinite;
 }
-/* @keyframes anim {
+@keyframes anim {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 
-.text span {
+#text3 span {
   position: absolute;
-  left: 50%;
-  font-size: 1.2em;
   transform-origin: 0 100px;
 }
+
 /*  */
 
 /* LOOP */
@@ -256,11 +256,9 @@ body {
   position: absolute;
   font-family: monument;
   width: 60%;
-  /* background-color: red; */
   z-index: 999;
   text-align: center;
-  bottom: 16%;
-  /* margin-top: -30%; */
+  bottom: 26%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -360,3 +358,15 @@ body {
   font-size: 20px;
   margin-left: 53vw;
 }
+
+/* projects */
+.page3 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: yellow;
+  /* padding-top: 12vw; */
+  position: relative;
+  z-index: 9;
+}
+
+/* slides for projects */
